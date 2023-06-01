@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
 }
 .container {
   padding: 0 18rem;
