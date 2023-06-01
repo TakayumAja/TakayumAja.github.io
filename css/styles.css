@@ -26,7 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .container {
   padding: 0 18rem;
@@ -139,6 +139,7 @@ footer nav {
   }
   .container {
     padding: 0 10rem;
+    overflow: hidden;
   }
   .subtitle {
     text-align: center;
@@ -149,9 +150,6 @@ footer nav {
 @media screen and (max-width: 640px) {
   :root {
     --fs-primary: 2rem;
-  }
-  body {
-    overflow: hidden;
   }
   .container {
     padding: 0 2rem;
