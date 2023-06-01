@@ -11,7 +11,7 @@
   --fs-fourth: 0.875rem;
 
   /* Color */
-  --clr-bg: hwb(216 5% 91%);
+  --clr-bg: #0d1117;
   --clr-primary: #0585fd;
   --clr-secondary: #f5f7f9;
   --clr-thrid: #cbd5e1;
@@ -22,7 +22,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--clr-bg);
   color: var(--clr-secondary);
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
