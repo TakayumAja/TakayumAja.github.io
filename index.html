@@ -6,12 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>takayum's</title>
 
-    <!-- Css Normalize -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
-    />
-
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,14 +13,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Link Css -->
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <!-- Navbar -->
-
+    <div id="root" class="font-poppins"></div>
+    <!-- <header>
       <nav class="navbar">
         <div class="container">
           <a href="./index.html"><h2>✨ takayum's</h2></a>
@@ -57,11 +47,9 @@
         <a href="#" id="itemLink" class="itemLink">Home</a>
         <a href="#" id="itemLink" class="itemLink">About</a>
       </div>
-    </header>
-    <main>
+    </header> -->
+    <!-- <main>
       <div class="container">
-        <!-- Hero -->
-
         <section class="hero">
           <h1 class="title">
             👋 Hi there, <br />I'm
@@ -133,19 +121,19 @@
           </p>
         </section>
       </div>
-    </main>
+    </main> -->
     <!-- Footer -->
 
-    <footer>
+    <!-- <footer>
       <nav>
         <p>Design & Code with💙</p>
         <p class="copyright">© takayum's 2023</p>
         <p>Code on <span class="text-gradient">Github</span></p>
       </nav>
-    </footer>
+    </footer> -->
 
     <!-- Script Js -->
-    <script>
+    <!-- <script>
       const menuToggle = document.getElementById("menuToggle");
       const buttonMenu = document.getElementById("buttonMenu");
       const item = document.querySelectorAll(".itemLink");
@@ -159,6 +147,7 @@
       buttonMenu.onclick = function () {
         menuToggle.classList.toggle("slide");
       };
-    </script>
+    </script> -->
+    <script type="module" src="./src/main.jsx"></script>
   </body>
 </html>
