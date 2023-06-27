@@ -5,7 +5,7 @@ const HeroSection = () => {
     <>
       <h1 className="text-center text-5xl font-semibold text-white leading-normal">
         👋 Hi there, <br /> I'm{" "}
-        <span className="text-blue-600">M. Asraf Takayum</span>
+        <span className="text-blue-600">M. Asraf Takayuma</span>
       </h1>
       <div className="flex text-white gap-10 justify-center">
         <a href="mailto:asraftakayuma76@gmail.com" target="_blank">
