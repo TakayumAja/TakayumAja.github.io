@@ -7,7 +7,7 @@ const Footer = () => {
         <p>Design &amp; Code with💙</p>
         <p>© takayum's 2023</p>
         <p>
-          Code on <span class="text-blue-600">Github</span>
+          Code on <span className="text-blue-600">Github</span>
         </p>
       </div>
     </div>
