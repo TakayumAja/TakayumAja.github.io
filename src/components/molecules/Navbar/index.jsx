@@ -8,7 +8,7 @@ const Navbar = () => {
     setOpen(!open);
   };
   return (
-    <header className="bg-gray-900 text-white">
+    <header className="backdrop-blur-md  text-white">
       <nav className="container mx-auto md:px-0 flex justify-between items-center h-16 px-4">
         <Link to={"/"} className="font-semibold text-xl">
           ✨takayum's
@@ -31,7 +31,7 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`absolute py-2 bg-gray-900 left-0 top-12 right-0 flex items-center justify-center flex-col gap-4 rounded-b-md  text-base shadow-md shadow-blue-500/50 transition-all ${
+          className={`absolute py-2 left-0 top-12 right-0 flex items-center justify-center flex-col gap-4 rounded-b-md  text-base shadow-md shadow-blue-500/50 backdrop-blur-md  ${
             open ? "block" : "hidden"
           }`}
         >

@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <>
-      <h1 className="text-center text-3xl lg:text-4xl xl:text-5xl font-semibold text-white leading-normal">
+      <h1 className="text-center text-2xl lg:text-4xl xl:text-5xl font-semibold text-white leading-normal">
         👋 Hi there, <br /> I'm{" "}
         <span className="text-blue-600">M. Asraf Takayuma</span>
       </h1>
@@ -61,7 +61,7 @@ const HeroSection = () => {
           </svg>
         </a>
       </div>
-      <p className="text-white text-base">
+      <p className="text-white md:text-base text-sm lg:text-lg ">
         A <b>Frontend Developer</b> who is currently focusing and diving into
         the world of <strong>React.js, MERN</strong>, and other related
         technologies.
