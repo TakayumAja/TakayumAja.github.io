@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,7 +8,12 @@ const Footer = () => {
         <p className="hidden lg:block">Design &amp; Code with💙</p>
         <p>© takayum's 2023</p>
         <p className="hidden lg:block">
-          Code on <span className="text-blue-600">Github</span>
+          Code on{" "}
+          <span className="text-blue-600">
+            <a href="https://github.com/TakayumAja/" target="_blank">
+              Github
+            </a>
+          </span>
         </p>
       </div>
     </div>
