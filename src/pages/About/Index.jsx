@@ -1,5 +1,15 @@
 import React from "react";
 import ImageProfile from "../../assets/profile-asraf.png";
+import LogoJs from "../../assets/javascript.png";
+import LogoHtml from "../../assets/html5.png";
+import LogoCss from "../../assets/css3.png";
+import LogoPy from "../../assets/python.png";
+import LogoMysql from "../../assets/mysql.png";
+import LogoBootstrap from "../../assets/bootstrap.png";
+import LogoFigma from "../../assets/figma.png";
+import LogoReact from "../../assets/react.png";
+import LogoTailwindcss from "../../assets/tailwindcss.png";
+import LogoRedux from "../../assets/redux.png";
 
 const AboutPage = () => {
   return (
@@ -85,6 +95,52 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
+
+        <section>
+          <h1 className="font-semibold text-3xl xl:text-4xl mb-6 text-center">
+            Skills
+          </h1>
+          <div className="flex flex-wrap justify-center gap-4">
+            <img src={LogoHtml} alt="Html Logo" className="w-[120px] h-auto" />
+            <img src={LogoCss} alt="Css Logo" className="w-[120px] h-auto" />
+            <img
+              src={LogoJs}
+              alt="Javascript Logo"
+              className="w-[120px] h-auto"
+            />
+            <img src={LogoPy} alt="Python Logo" className="w-[120px] h-auto" />
+            <img
+              src={LogoMysql}
+              alt="Mysql Logo"
+              className="w-[120px] h-auto"
+            />
+            <img
+              src={LogoBootstrap}
+              alt="Bootstrap Logo"
+              className="w-[120px] h-auto"
+            />
+            <img
+              src={LogoTailwindcss}
+              alt="Tailwindcss Logo"
+              className="w-[120px] h-auto"
+            />
+            <img
+              src={LogoReact}
+              alt="Reactjs Logo"
+              className="w-[120px] h-auto"
+            />
+            <img
+              src={LogoRedux}
+              alt="Redux Logo"
+              className="w-[120px] h-auto"
+            />
+            <img
+              src={LogoFigma}
+              alt="Figma Logo"
+              className="w-[120px] h-auto"
+            />
+          </div>
+        </section>
       </div>
     </section>
   );
