@@ -7,7 +7,7 @@ import React from "react";
 
 const ProjectPage = () => {
   return (
-    <section>
+    <section className="py-8">
       <div className="mx-auto container px-4">
         <h1 className="text-white text-4xl text-center font-bold mb-10">
           Projects

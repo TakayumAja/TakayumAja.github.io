@@ -13,7 +13,7 @@ import LogoRedux from "../../assets/redux.png";
 
 const AboutPage = () => {
   return (
-    <section className="text-white">
+    <section className="text-white py-8">
       <div className="mx-auto container px-4">
         <div
           id="aboutWrapper"

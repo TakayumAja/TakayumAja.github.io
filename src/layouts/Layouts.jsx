@@ -3,7 +3,7 @@ import { Navbar, Button, Footer } from "../components";
 
 const Layouts = () => {
   return (
-    <div className="min-h-screen flex justify-between flex-col bg-gray-900">
+    <div className="bg-gray-900 flex flex-col min-h-screen justify-between">
       <Navbar />
       <Outlet />
       <Footer />
